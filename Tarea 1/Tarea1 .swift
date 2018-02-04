@@ -8,16 +8,16 @@
 
 import UIKit
 
-var indice = 0...100
-let almohadilla = "#"
-let par = "par!!!"
-let impar = "impar!!!"
-let viva = "Viva Swift!!!"
-let bingo = "Bingo!!!"
-
 class Tarea1{
+    var indice = 0...100
+    let almohadilla = "#"
+    let par = "par!!!"
+    let impar = "impar!!!"
+    let viva = "Viva Swift!!!"
+    let bingo = "Bingo!!!"
+    
     for idx in indice {
-        
+    
         if (idx % 2 == 0){
             print(almohadilla + \(idx) + par);
         }else{
@@ -29,6 +29,6 @@ class Tarea1{
         if (idx % 5 == 0){
             print(almohadilla + \(idx) + bingo);
         }
-        
+    
     }
 }
